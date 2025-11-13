@@ -7,5 +7,5 @@ jobs:
   saludo: 
     runs-on: ubuntu-latest 
 steps: 
-  - name: Mensaje de bienvenida 
-    run: echo "Hola desde GitHub Actions"
+  name: Mensaje de bienvenida 
+  run: echo "Hola desde GitHub Actions"
